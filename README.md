@@ -6,5 +6,5 @@
     data(test_data)
     bubblegrid(x = test_data[[1]], y = test_data[[2]], color = test_data[[3]])
 
-![A demonstration of the results](doc/demo_plot_plain.png?raw=true)
-![A demonstration of the results](doc/demo_plot_bubble.png?raw=true)
+![A demonstration of the results](doc/demo_plot_plain.png?raw=true | width=100)
+![A demonstration of the results](doc/demo_plot_bubble.png?raw=true | width=100)
