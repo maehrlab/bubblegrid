@@ -6,5 +6,6 @@
     data(test_data)
     bubblegrid(x = test_data[[1]], y = test_data[[2]], color = test_data[[3]])
 
-![A demonstration of the results](doc/demo_plot_plain_small.png?raw=true)
-![A demonstration of the results](doc/demo_plot_bubble_small.png?raw=true)
+<img src="doc/demo_plot_plain.png" alt="Too much. Can't see." width="300"/>
+<img src="doc/demo_plot_bubble.png" alt="Bubbles make it better." width="300"/>
+
