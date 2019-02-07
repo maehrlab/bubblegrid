@@ -1,0 +1,4 @@
+
+data(test_data)
+bubblegrid(test_data[[1]], test_data[[2]], test_data[[3]])
+bubblegrid(test_data[[1]], test_data[[2]], test_data[[4]], num_bins = 15)

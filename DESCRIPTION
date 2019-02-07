@@ -1,0 +1,20 @@
+Package: bubblegrid
+Type: Package
+Title: Bubble Grid Plots for Genomics Data
+Version: 0.1.0
+Author: Eric Kernfeld
+Maintainer: Eric Kernfeld <eric.kernfeld@umassmed.edu>
+Description: Make bubble grid plots to avoid overplotting your genomics data.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Depends:
+    R (>= 3.4)
+Imports:
+    FNN,
+    hexbin,
+    ggplot2,
+    assertthat
+Suggests: 
+    testthat

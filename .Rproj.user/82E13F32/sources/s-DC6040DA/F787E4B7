@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549557082723.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F787E4B7",
+    "lastKnownWriteTime" : 1549557148,
+    "last_content_update" : 1549557148745,
+    "path" : "~/Desktop/software_projects/bubblegrid/tests/testthat/testthat_bubblegrid.R",
+    "project_path" : "tests/testthat/testthat_bubblegrid.R",
+    "properties" : {
+        "cursorPosition" : "2,15",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
