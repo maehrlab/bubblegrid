@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "615618985",
     "id" : "F7382EAF",
-    "lastKnownWriteTime" : 1549560464,
-    "last_content_update" : 1549560464394,
+    "lastKnownWriteTime" : 1549567692,
+    "last_content_update" : 1549567692336,
     "path" : "~/Desktop/software_projects/bubblegrid/R/bubblegrid.R",
     "project_path" : "R/bubblegrid.R",
     "properties" : {
-        "cursorPosition" : "42,44",
-        "scrollLine" : "25"
+        "cursorPosition" : "4,21",
+        "scrollLine" : "2"
     },
     "relative_order" : 2,
     "source_on_save" : false,

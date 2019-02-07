@@ -2,10 +2,18 @@ requireNamespace("ggplot2", quietly = T)
 requireNamespace("FNN", quietly = T)
 requireNamespace("hexbin", quietly = T)
 
-#' Bubble grid plots (for single-cell data)
+#' Print and return bubble grid plots (for single-cell data)
 #'
 #' @param x,y,color Numeric vectors. To be shown directly in the plot.
 #' @param num_bins This function works by hexagonal binning. This is the number of bins on the horizontal axis.
+#'
+#' @return  Return value is a ggplot object.
+#'
+#' @export
+#' @examples
+#' data(test_data)
+#' bubblegrid::bubblegrid(x = test_data[[1]], y = test_data[[2]], color = test_data[[3]])
+#'
 bubblegrid <- function(x, y, color, num_bins = 25) {
   # Sanitize inputs
   assertthat::is.number(x)

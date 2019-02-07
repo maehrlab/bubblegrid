@@ -2,7 +2,7 @@
 % Please edit documentation in R/bubblegrid.R
 \name{bubblegrid}
 \alias{bubblegrid}
-\title{Bubble grid plots (for single-cell data)}
+\title{Print and return bubble grid plots (for single-cell data)}
 \usage{
 bubblegrid(x, y, color, num_bins = 25)
 }
@@ -11,6 +11,14 @@ bubblegrid(x, y, color, num_bins = 25)
 
 \item{num_bins}{This function works by hexagonal binning. This is the number of bins on the horizontal axis.}
 }
+\value{
+Return value is a ggplot object.
+}
 \description{
-Bubble grid plots (for single-cell data)
+Print and return bubble grid plots (for single-cell data)
+}
+\examples{
+data(test_data)
+bubblegrid::bubblegrid(x = test_data[[1]], y = test_data[[2]], color = test_data[[3]])
+
 }
