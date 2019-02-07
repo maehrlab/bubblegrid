@@ -1,5 +1,5 @@
     
-`bubblegrid` helps you see your data when a plain scatterplot would be overplotted. To do that, it aggregates points within a hexagonal grid, then shows, via size, the point count. It also shows, via color, the intensity (e.g. gene expression) averaged within bins.
+`bubblegrid` helps you see your data when a plain scatterplot would be overplotted. To do that, it aggregates points within a hexagonal grid, then shows the point count as the bubble size. It also shows the intensity (e.g. gene expression) via color. The intensity / gene expression is averaged within bins.
     
     devtools::install_github("maehrlab/bubblegrid")
     library("bubblegrid")
